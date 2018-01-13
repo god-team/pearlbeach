@@ -1,6 +1,12 @@
 /* by DMITRIY IGOLNIKOV for PEARLBEACH.RU */
 /* 2017-2018 production */
 
+::selection {
+	background: #09b0b9;
+	color: #fff;
+	font-family: 'Arial';
+}
+
 @font-face {
 	font-family: "OpenSans";
 	src: url("../fonts/2209.ttf");
@@ -262,6 +268,10 @@ hr {
 
 .footer-icon-twitter:hover {
 	color: #00aced;
+}
+
+.footer-icon-insta:hover {
+	color: #8a3ab9;
 }
 
 .footer-icon-vk:hover {
