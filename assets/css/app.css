@@ -29,6 +29,7 @@
 .header-menu-ul {
 	list-style-type: none;
 	padding-top: 14%;
+	-webkit-padding-start: 0px !important;
 }
 
 .header-menu-li {
