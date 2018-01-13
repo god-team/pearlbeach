@@ -7,6 +7,7 @@
   <!-- Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
   <title>Pearl Beach</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
     </ul></center>
     <h1 class="text-center header-title">Pearl Beach</h1>
     <h4 class="text-center header-title-small">Clean, improved, needed.</h4>
-    <center><a href="#balance" class="header-button-down"><i class="fas fa-arrow-down"></i></a></center>
+    <center><a href="#plus" class="header-button-down"><i class="fas fa-arrow-down"></i></a></center>
   </section>
 
   <section id="plus" class="plus text-center">
@@ -27,21 +28,21 @@
       <h2 class="text-center plus-title">Наши преимущества</h2>
       <div class="row">
         <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 wow fadeInLeft">
             <i class="far fa-map fa-4x fa-fw plus-icon"></i>
             <h3 class="plus-title-card">Поблизости</h3>
             <p class="plus-text">Ваш любимый пляж находится недалеко от вашего дома!</p>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3 wow fadeInDown">
             <i class="fab fa-pagelines fa-4x fa-fw plus-icon"></i>
             <h3 class="plus-title-card">Чисто</h3>
             <p class="plus-text">На пляже еженедельно проводятся субботники по очистке мусора с территории.</p>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3 wow fadeInRight">
             <i class="fas fa-check fa-4x fa-fw plus-icon"></i>
             <h3 class="plus-title-card">Бесплатно</h3>
             <p class="plus-text">Посещение пляжа абсолютно бесплатно!</p>
@@ -52,7 +53,7 @@
   </section>
 
   <section id="club" class="club">
-    <div class="club-content">
+    <div class="club-content wow fadeInLeft">
       <h2 class="club-title">Pearl Business Club</h2>
       <p class="club-text">Pearl Business Club - бизнес-клуб сторонников Pearl Beach, <br> где обсуждаются все деловые вопросы пляжа.</p>
       <br>
@@ -96,12 +97,17 @@
     <p class="text-center footer-text">Pearl Beach @ 2017-2018</p>
     <p class="text-center footer-text-author">design & powered by <a href="https://vk.com/dima.igol">dima.igol</a></p>
     <div class="footer-icons text-center">
-      <a href="#" class="footer-icon-vk"><i class="fab fa-vk fa-fw"></i></a>
-      <a href="#" class="footer-icon-twitter"><i class="fab fa-twitter fa-fw"></i></a>
-      <a href="#" class="footer-icon-youtube"><i class="fab fa-youtube fa-fw"></i></a>
+      <a href="#" class="footer-icon-vk wow fadeInLeft"><i class="fab fa-vk fa-fw"></i></a>
+      <a href="#" class="footer-icon-twitter wow fadeInUp"><i class="fab fa-twitter fa-fw"></i></a>
+      <a href="#" class="footer-icon-youtube wow fadeInRight"><i class="fab fa-youtube fa-fw"></i></a>
     </div>
   </section>
 
+
+  <script src="assets/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
   <script>
