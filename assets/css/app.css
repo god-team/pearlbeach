@@ -28,6 +28,7 @@
 
 .header-menu-ul {
 	list-style-type: none;
+	padding-top: 14%;
 }
 
 .header-menu-li {
@@ -50,9 +51,9 @@
 }
 
 .header-title {
-	padding-top: 15%;
 	font-family: 'Ostrich-Rounded';
 	font-size: 4.5em;
+	padding-top: 0.2em;
 	letter-spacing: 10px;
 	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.55);
 }
