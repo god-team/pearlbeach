@@ -126,6 +126,9 @@
 		margin-right: 2em !important;
 		margin-top: 3em !important;
 	}
+	.btn-donate {
+		margin-left: 2em !important;
+	}
 }
 
 .balance {
@@ -181,6 +184,36 @@
 	line-height: 27px;
 	letter-spacing: 1px;
 	font-family: 'OpenSans';
+}
+
+.btn-donate {
+	background: #4b77e8;
+	background: -moz-linear-gradient(left, #4b77e8 0%, #2030e3 28%, #4f22e3 55%, #7622e3 89%, #7622e3 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #4b77e8), color-stop(28%, #2030e3), color-stop(55%, #4f22e3), color-stop(89%, #7622e3), color-stop(100%, #7622e3));
+	background: -webkit-linear-gradient(left, #4b77e8 0%, #2030e3 28%, #4f22e3 55%, #7622e3 89%, #7622e3 100%);
+	background: -o-linear-gradient(left, #4b77e8 0%, #2030e3 28%, #4f22e3 55%, #7622e3 89%, #7622e3 100%);
+	background: -ms-linear-gradient(left, #4b77e8 0%, #2030e3 28%, #4f22e3 55%, #7622e3 89%, #7622e3 100%);
+	background: linear-gradient(to right, #4b77e8 0%, #2030e3 28%, #4f22e3 55%, #7622e3 89%, #7622e3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b77e8', endColorstr='#7622e3', GradientType=1 );
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 15px 20px 15px 20px;
+	border-radius: 3px;
+	margin-left: 10em;
+	margin-top: 1em;
+	transition: 0.4s;
+}
+
+.btn-donate:hover {
+	background: #4c84e6;
+	background: -moz-linear-gradient(left, #4c84e6 0%, #2248e3 28%, #5522e3 55%, #5522e3 89%, #5522e3 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #4c84e6), color-stop(28%, #2248e3), color-stop(55%, #5522e3), color-stop(89%, #5522e3), color-stop(100%, #5522e3));
+	background: -webkit-linear-gradient(left, #4c84e6 0%, #2248e3 28%, #5522e3 55%, #5522e3 89%, #5522e3 100%);
+	background: -o-linear-gradient(left, #4c84e6 0%, #2248e3 28%, #5522e3 55%, #5522e3 89%, #5522e3 100%);
+	background: -ms-linear-gradient(left, #4c84e6 0%, #2248e3 28%, #5522e3 55%, #5522e3 89%, #5522e3 100%);
+	background: linear-gradient(to right, #4c84e6 0%, #2248e3 28%, #5522e3 55%, #5522e3 89%, #5522e3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c84e6', endColorstr='#5522e3', GradientType=1 );
 }
 
 /* END BALANCE STYLES */

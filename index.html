@@ -97,6 +97,11 @@
         </div>
       </div></center>
       <p class="balance-text">Деньги, пожертвованные пляжу, уходят на покупку расходных материалов и материалов для обустройства, на оплату работы специалистов и мастеров, на рекламу пляжа. Деньги, переведённые на благо пляжа никогда не идут в чей-то личный карман.</p>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn-donate" data-toggle="modal" data-target="#donateModal">
+        Пожертвовать проекту
+      </button>
+
     </div>
   </section>
   
@@ -113,6 +118,47 @@
     </div>
   </section>
 
+
+  <!-- Modal -->
+  <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="Пожертвовать деньги проекту" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Донат</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+            <input type="hidden" name="receiver" value="410014136530967">
+            <input type="hidden" name="short-dest" value="Пожертвование пляжу Pearl Beach">
+            <input type="hidden" name="quickpay-form" value="donate">
+            <input type="hidden" name="targets" value="Пожертвование Pearl Beach">
+            <input type="number" class="form-control" name="sum" placeholder="Сумма пожертвования"><br>
+            <input type="text"  class="form-control" name="comment" placeholder="Комментарий">
+            <br>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio1" " name="paymentType" value="PC" class="custom-control-input">
+              <label class="custom-control-label" for="customRadio1">Яндекс.Деньгами</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio12" " name="paymentType" value="AC" class="custom-control-input">
+              <label class="custom-control-label" for="customRadio12">Банковской картой</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio123" " name="paymentType" value="MC" class="custom-control-input">
+              <label class="custom-control-label" for="customRadio123">С баланса телефона</label>
+            </div>
+            <br>
+            <input type="submit" class="btn btn-success btn-block" value="Пожертвовать">
+          </form>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="assets/js/wow.min.js"></script>
   <script>
