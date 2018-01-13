@@ -58,9 +58,9 @@
 }
 
 .header-title-small {
-	font-family: 'Ostrich-Rounded';
-	font-size: 1.8em;
-	letter-spacing: 2px;
+	font-family: 'OpenSans', Arial;
+	font-size: 1.3em;
+	letter-spacing: 1px;
 	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.55);
 	padding-bottom: 5em;
 }
