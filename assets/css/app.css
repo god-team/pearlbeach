@@ -126,6 +126,7 @@
 .balance {
 	width: 100%;
 	padding-bottom: 5em;
+	font-family: 'OpenSans';
 }
 
 .balance-row {
@@ -148,7 +149,6 @@
 
 .balance-title {
 	padding-top: 3em;
-	font-family: 'OpenSans';
 	padding-bottom: 2em;
 }
 
@@ -158,13 +158,13 @@
 	margin-top: 0.5em;
 }
 
-.balance-count {
-	font-family: 'OpenSans';
+.balance-small {
+	padding-top: 1.5em;
 }
 
-.balance-small {
-	font-family: 'OpenSans';
-	padding-top: 1.5em;
+.balance-small-cost {
+	font-size: 0.7em;
+	color: #ADADAD;
 }
 
 .balance-text {
