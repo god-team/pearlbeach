@@ -129,6 +129,17 @@
       });
     });
   </script>
+  <script type="text/javascript">
+    $.ajax({
+      url: "https://api.cryptonator.com/api/ticker/eth-rur",
+      method: "GET",
+      dataType: 'JSONP',
+      success: function(data) {
+        var info = data;
+        console.log(info);
+      }
+    });
+  </script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 </body>
 </html>
